@@ -1,4 +1,4 @@
-﻿/* COLORS I LIKE */
+/* COLORS I LIKE */
 
 /*
 
@@ -381,7 +381,7 @@ body{
 }
 
 .about .icons{
-  width: 70%
+  width: 70%;
   margin-right: 15%;
   margin-left: 15%;
   text-align: center;
@@ -389,7 +389,7 @@ body{
 
 @media (max-width: 991px){
   .about .icons{
-  width: 50%
+  width: 50%;
   margin-right: 25%;
   margin-left: 25%;
 }
@@ -397,26 +397,37 @@ body{
 
 @media (max-width: 767px){
   .about .icons{
-  width: 60%
+  width: 60%;
   margin-right: 20%;
   margin-left: 20%;
 }
 }
 
-.about i {
-	float: left;
-	font-size: 40px;
-	width: 70px;
-	height: 70px;
-	line-height: 66px;
-	text-align: center;
-	color: #999;
-	border-radius: 50%;
-	text-align: center;
-	margin-top: 15px;
+.about .fa {
+    float: left;
+    font-size: 2em;
+    width: 70px;
+    height: 70px;
+    line-height: 66px;
+    text-align: center;
+    color: #999;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+    margin: 0px -32px 0 -4px;
+    margin-left: 20px;
 }
 
-.about i:hover{
+@media (max-width: 580px){
+  .about .fa {
+    font-size: 1.4em;
+    margin-top: 15px;
+    margin: 0px -40px 0 -4px;
+    margin-left: 10px;
+}
+}
+
+.about .fa:hover{
 	color: transparent;
 }
 
@@ -952,6 +963,50 @@ body{
 }
 
 
+
+.meeting .col-md-12 {
+  max-width: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: -80px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+@media (max-width: 991px){
+  .meeting .col-md-12{
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+}
+}
+
+@media (max-width: 767px){
+  .meeting .col-md-12{
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    float: left;
+}
+}
+
+.meeting .icons i {
+    padding: 20px 20px 0px;
+    font-size: 2em;
+}
+
+.meeting .icons i:hover{
+  color: transparent;
+}
+
+
 /*START FOOTER*/
 .footer{
   background-color: #000000;
@@ -962,6 +1017,7 @@ body{
 }
 .footer span{
   font-weight: bold;
+  font-size: 21px;
 }
 .footer a{
   color: #b4a892;
